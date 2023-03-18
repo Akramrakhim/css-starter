@@ -1,3 +1,8 @@
+/* ROOT */
+:root{
+
+}
+
 /* GLOBAL STYLE */
 html{
   height: 100%;
@@ -24,6 +29,11 @@ body{
   color: #222;
 }
 
+a, li{
+  text-decoration: none;
+  list-style: none;
+}
+
 img{
   max-width: 100%;
   height: auto;
@@ -32,12 +42,12 @@ img{
 /* CONTAINER STYLE */
 
 .container{
-width: 100%;
-max-width: 1200px;
-padding-left: 50px;
-padding-right: 50px;
-margin-right: auto;
-margin-left: auto;
+  width: 100%;
+  max-width: 1200px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* MAIN-CONTENT */
@@ -45,3 +55,4 @@ margin-left: auto;
 .main-content{
   flex-grow: 1;
 }
+
